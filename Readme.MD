@@ -6,7 +6,7 @@ which offers historical weather data. The script processes this data to calculat
 and other weather conditions. It also builds several plots: two plots show the distribution of overcast conditions 
 and wind, while two line plots display temperature and precipitation data.
 
-Figure_1.png
+![Optional Text](../master/iFigure_1.png)
 
 2. Processing Open Data of StoreBelt Traffic from 1998 to the Present: 
 The script storebælt.py reads traffic data from a CSV file, filters the information according to specific years, 
@@ -14,8 +14,8 @@ and saves it into separate Excel files (.xlsx) with visualizations of the data. 
 of the StoreBelt A/S company, noting that this estimate is likely understated because it uses modern discount prices; 
 historical pricing data is not publicly available.
 
-barplot.png
-pie_chart.png
+![Optional Text](../master/barplot.png)
+![Optional Text](../master/pie_chart.png)
 
    
 These calculations are meant to expand understanding and comprehension of data science techniques 
