@@ -44,10 +44,7 @@ idx = df_.groupby('Stofparameter')['Resultat'].idxmax()
 
 # Use this index to filter the DataFrame
 df_max = df_.loc[idx, ['Stedtekst', 'Stofparameter', 'Resultat']]
-#df_max.set_option('display.max_columns', None)
 print(df_max)
-
-
 
 for val, df in separate_dataframes.items():
     print(f"\nData for {val}:")
@@ -56,9 +53,6 @@ for val, df in separate_dataframes.items():
     df_2['Resultat'] = df_2['Resultat'].str.replace(',', '.')
     df_2['Resultat'] = pd.to_numeric(df_2['Resultat'], errors='coerce')
     df_grouped = df_2.groupby('Stofparameter').agg({'Resultat': 'mean'}).reset_index()
-    #df_2.set_option('display.max_rows', None)
-    #print out frame with data
-
     print(df_2)
 
     # Exclude items
@@ -83,8 +77,6 @@ for val, df in separate_dataframes.items():
 
     if val == 'Vestermarie Renseanlæg':
        plt.figure(figsize=(10, 6))
-       # # Plotting the DataFrame
-       #df_2.plot(x='Stofparameter', y='Resultat', kind='bar', title=f"Contaminants in sawege, {val}", legend=False)
        plots = sns.barplot(x=Stofparameter, y=Resultat,  gap=0.1, hue=Stofparameter, legend=False, errorbar=None)
        for bar in plots.patches:
            plots.annotate(format(bar.get_height(), '.2f'),
@@ -92,18 +84,15 @@ for val, df in separate_dataframes.items():
                            bar.get_height()), ha='center', va='center',
                           size=10, xytext=(0, 8),
                           textcoords='offset points')
-       # Customize the plot
+
        plt.title(f"Contaminants in sawege, {val}")
        plt.xlabel('Compounds')
        plt.ylabel('Concentration, mg/L')
        plt.xticks(rotation=45, ha="right")  # Rotate x-axis labels if needed
        plt.tight_layout()  # Adjust layout to fit labels
-       #plt.legend()
+
        plt.savefig(f'contamination_{val}.png')
-       # Show the plot
+
        plt.show()
-    #
-    ##else:
-    ##print(df)
 
 
