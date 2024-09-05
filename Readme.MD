@@ -21,11 +21,10 @@ historical pricing data is not publicly available.
 These calculations are meant to expand understanding and comprehension of data science techniques 
 using tools such as Python and the Pandas library.
 
-3. Processing of environtmental data from miljoeportal.dk.
+3. Processing of environmental data from miljoeportal.dk.
 For the custom access are available data with sewage, lake, lake-bottom condition, rivers, underground water.
 We can get raw data in csv format and manipulate with that in desirable way. I am used to build plots with sorted data.
 In this situation for specific  sample-place.
-
 
 Environmental data of air contamination. Surprisingly very low rates with pollutants concentration were published by Danish
 national center of environment and energy. According to your request server can withdraw collected data about some most 
