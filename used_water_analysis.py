@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-#capital region, sawages
+#capital region, wastewater
 data = pd.read_csv('used_water_pollution_data/Renseanl_g(Spildevand)_20240903_203359Hovdestaden.csv', sep="\t", encoding='ISO-8859-1') #encoding='ISO-8859-1'
 df = pd.DataFrame(data)
 
@@ -28,7 +28,7 @@ for val in unique:
     separate_dataframes[val] = df_filtered
     count +=1
 print("amount of places are: "+str(count))
-
+print(unique)
 
 print("---------------max results--------------------")
 frame1 = ['Dato','Stedtekst','Stofparameter', 'Resultat-attribut', 'Resultat', 'Enhed']
@@ -67,15 +67,16 @@ for val, df in separate_dataframes.items():
     df_grouped = df_2.groupby('Stofparameter').agg({'Resultat': 'mean'}).reset_index()
 
     #print("---------------max results--------------------")
-    #idx = df_2.groupby('Stofparameter')['Resultat'].idxmax()
+    idx = df_2.groupby('Stofparameter')['Resultat'].idxmax()
     #
     ## Use this index to filter the DataFrame
-    #df_max = df_2.loc[idx, ['Stedtekst', 'Stofparameter', 'Resultat']]
-    #print(df_max)
+    df_max = df_2.loc[idx, ['Stedtekst', 'Stofparameter', 'Resultat', 'Enhed']]
+    print(f"----------data for {val} location-------------")
+    print(df_max)
 
 
 
-    if val == 'Vestermarie Renseanlæg':
+    if val == 'Svaneke Renseanlæg':
        plt.figure(figsize=(10, 6))
        plots = sns.barplot(x=Stofparameter, y=Resultat,  gap=0.1, hue=Stofparameter, legend=False, errorbar=None)
        for bar in plots.patches:
@@ -94,5 +95,4 @@ for val, df in separate_dataframes.items():
        plt.savefig(f'contamination_{val}.png')
 
        plt.show()
-
 
