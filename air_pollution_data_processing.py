@@ -15,7 +15,7 @@ files_to_merge = ['air_contamination/NO.csv',
 
 cnt = 0
 n = 0
-
+frame_list = {}
 fig, axes = plt.subplots(3, 2, figsize=(15, 12))
 
 for file in files_to_merge:
