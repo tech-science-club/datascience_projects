@@ -27,4 +27,4 @@ We can get raw data in csv format and manipulate with that in desirable way. I a
 In this situation for specific  sample-place.
 
 
-![Optional Text](../master/contamination_Vestermarie Renseanlæg.png)
+![Optional Text](contamination_Vestermarie Renseanlæg.png)
