@@ -32,4 +32,4 @@ common pollutants. Presumably, it is because, Denmark does not have a metallurgy
 Government rules and regulations impacted in positive way an agriculture, traffic regulations, building area have been 
 playing crucial role in pollutants rates declining.
 
-https://github.com/tech-science-club/datascience_projects/blob/09db7fa2103c3cf324dc4b179b1267b3be2889be/contamination_air.png
+![Optional Text](../master//contamination_air.png)
