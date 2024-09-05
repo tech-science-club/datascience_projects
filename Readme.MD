@@ -31,5 +31,5 @@ Environmental data of air contamination. Surprisingly very low rates with pollut
 national center of environment and energy. According to your request server can withdraw collected data about some most 
 common pollutants. Presumably, it is because, Denmark does not have a metallurgy, chemical industry, as it may be. 
 Government rules and regulations impacted in positive way an agriculture, traffic regulations, building area have been 
-playing crucial role in pollutants rates declining 
+playing crucial role in pollutants rates declining.
 
