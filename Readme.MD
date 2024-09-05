@@ -27,4 +27,4 @@ We can get raw data in csv format and manipulate with that in desirable way. I a
 In this situation for specific  sample-place.
 
 
-![Optional Text](contamination_Vestermarie Renseanlæg.png)
+![Optional Text](https://github.com/tech-science-club/datascience_projects/blob/934c294b350059743c02cdca3d3b1fd2fe13ff81/contamination_Vestermarie%20Renseanl%C3%A6g.png)
