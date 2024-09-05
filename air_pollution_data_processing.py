@@ -59,9 +59,9 @@ plt.xticks(rotation=45, ha="right")
 plt.tight_layout()
 fig.suptitle("Air Pollutants, Denmark", fontsize=20)
 plt.subplots_adjust(top=0.92, wspace=0.1, hspace=0.3)
-plt.show()
-plt.savefig(f'contamination_air.png')
 
+plt.savefig('contamination_air.png')
+plt.show()     
 #-------------------------to withdraw separate plots----------------------------------
 #all_dataframes = []
 #for file in files_to_merge:
