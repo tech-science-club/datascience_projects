@@ -26,3 +26,5 @@ For the custom access are available data with sewage, lake, lake-bottom conditio
 We can get raw data in csv format and manipulate with that in desirable way. I am used to build plots with sorted data.
 In this situation for specific  sample-place.
 
+
+![Optional Text](../master/contamination_Vestermarie Renseanlæg.png)
