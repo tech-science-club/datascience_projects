@@ -26,9 +26,12 @@ For the custom access are available data with sewage, lake, lake-bottom conditio
 We can get raw data in csv format and manipulate with that in desirable way. I am used to build plots with sorted data.
 In this situation for specific  sample-place.
 
+![Optional Text](../master/contamination_Svaneke%20Renseanl%C3%A6g.png)
+
 Environmental data of air contamination. Surprisingly very low rates with pollutants concentration were published by Danish
 national center of environment and energy. According to your request server can withdraw collected data about some most 
 common pollutants. Presumably, it is because, Denmark does not have a metallurgy, chemical industry, as it may be. 
 Government rules and regulations impacted in positive way an agriculture, traffic regulations, building area have been 
 playing crucial role in pollutants rates declining.
 
+![Optional Text](../master//contamination_air.png)
