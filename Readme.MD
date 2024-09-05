@@ -28,10 +28,19 @@ In this situation for specific  sample-place.
 
 ![Optional Text](../master/contamination_Svaneke%20Renseanl%C3%A6g.png)
 
-Environmental data of air contamination. Surprisingly very low rates with pollutants concentration were published by Danish
+4. Environmental data of air contamination. Surprisingly very low rates with pollutants concentration were published by Danish
 national center of environment and energy. According to your request server can withdraw collected data about some most 
 common pollutants. Presumably, it is because, Denmark does not have a metallurgy, chemical industry, as it may be. 
 Government rules and regulations impacted in positive way an agriculture, traffic regulations, building area have been 
 playing crucial role in pollutants rates declining.
+
+![Optional Text](../master//contamination_air.png)
+Interesting things about limit permissible concentrations. To find each value you have to put effords. And different organiastion
+has a different opinion about that.
+Scientists have decied to convert concentration units into parts per mln, but forgot that each substance molecule has its own waight.
+CO2 is heavier then HN3 more then 2 times. If conventional scale was created in 17th century with standarts of meters, kilograms unit etc,
+why we have to make new wheel up? 
+nobody knows. 
+here is a couple of found data about permisssible limit concentration of gases in the Air
 
 ![Optional Text](../master//contamination_air.png)
