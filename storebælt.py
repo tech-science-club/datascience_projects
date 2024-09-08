@@ -64,7 +64,7 @@ for index, row in data.iterrows():
     plt.savefig(f'{start_year}.png')
     plt.close()
 
-    with pd.ExcelWriter(f'sorted_data/{start_year}.xlsx', engine='xlsxwriter') as writer:
+    with pd.ExcelWriter(f'sorted_data_traffic_according_to_years/{start_year}.xlsx', engine='xlsxwriter') as writer:
         filtered_data.to_excel(writer, sheet_name='Data', index=False)
         workbook = writer.book
         worksheet = writer.sheets['Data']

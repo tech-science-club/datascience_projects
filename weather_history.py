@@ -19,7 +19,7 @@ params = {
 	#"latitude": 31.392222,            #
 	#"longitude": 48.999722,           # Ukraine, Shpola
 	"start_date": "2024-05-01",
-	"end_date": "2024-08-20",
+	"end_date": "2024-09-01",
 	"hourly": ["temperature_2m", "cloud_cover" ],
 	"daily": ["temperature_2m_max", "temperature_2m_min", "precipitation_sum", "rain_sum", "wind_speed_10m_max"],
 	"timezone": "Europe/Berlin"
